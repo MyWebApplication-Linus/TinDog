@@ -136,3 +136,28 @@ h2{
         transform: rotate(0);
     }
 }
+
+/* cta */
+
+#cta{
+    padding: 7% 15%;
+    background-color: #FF4C68;
+    text-align: center;
+}
+.cta-closing-message{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: white;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+.social-icon{
+    padding: 20px 10px;
+}
