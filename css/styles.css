@@ -20,6 +20,10 @@ h3{
 .container-fluid{
     padding: 7% 15%;
 }
+.controller{
+    padding-bottom: 12%;
+}
+
 #title .container-fluid{
     padding: 3% 15% 7%;
 }
@@ -137,7 +141,7 @@ i.features-icon:hover{
     line-height: 1.5;
 }
 
-@media (max-width: 1028px){
+@media (max-width: 60em ){
 
     #title{
         text-align: center;
@@ -147,6 +151,11 @@ i.features-icon:hover{
     }
     .rotate{
         transform: rotate(0);
+    }
+    .big-heading{
+        font-size: 12vw;
+        line-height: 1.5;
+        font-weight: 900;
     }
 }
 
